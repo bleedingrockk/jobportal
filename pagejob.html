@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Registration Website</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="Stylesheet.css">
+    <style>
+        :root {
+            --primary-green: #00cc00;
+            --dark-green: #008000;
+            --light-green: #66ff66;
+            --black: #000000;
+            --gray: #808080;
+        }
+
+        .container {
+            width: 500px;
+            margin: 0 auto;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 50px;
+        }
+
+        .header {
+            text-align: center;
+            padding: 20px 0;
+            background-color: var(--primary-green);
+            color: #fff;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+
+        .header h1 {
+            font-size: 28px;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        .form {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form input, .form textarea, .form select {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            outline: none;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        select {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            outline: none;
+        }
+
+        .cont1{
+            display: flex;
+            justify-content: space-between;
+        }
+
+    </style>
+</head>
+<body>
+    <video autoplay muted loop width="320" height="240">
+        <source src="Bakground.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    
+    <header>
+        <div>
+            Rock Industries
+            <span style="font-size: 20px; margin: 0px; padding:0px; color: var(--dark-green); display: block;">Empowering the Future of Technology</span>
+        </div>
+        <div>
+            <button> <a href="INDEX.html"> Logout </a> </button>
+        </div>
+    </header>
+    <div class="cont1">
+        <div class="container">
+            <div class="header">
+                <h1>Job Details - Software Developer</h1>
+            </div>
+            <div class="form">
+                <input type="text" name="company_name" placeholder="Company Name" readonly value="Tech Innovators Inc.">
+                <input type="text" name="job_title" placeholder="Job Title" readonly value="Software Developer">
+                <input type="date" name="start_date" placeholder="Start Date" readonly value="2023-01-01">
+                <input type="date" name="end_date" placeholder="End Date" readonly value="2023-12-31">
+                <textarea name="job_description" placeholder="Job Description" readonly>Tech Innovators Inc. seeks a skilled Software Developer. Collaborate on innovative projects, write efficient code, and contribute to cutting-edge solutions. Join us in shaping the future of technology!"</textarea>
+                <button> <a href="INDEX.html"> Apply Now </a> </button>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="header">
+                <h1>Job Details - Graphic Designer</h1>
+            </div>
+            <div class="form">
+                <input type="text" name="company_name" placeholder="Company Name" readonly value="Creative Innovations Ltd.">
+                <input type="text" name="job_title" placeholder="Job Title" readonly value="Graphic Designer">
+                <input type="date" name="start_date" placeholder="Start Date" readonly value="2023-02-15">
+                <input type="date" name="end_date" placeholder="End Date" readonly value="2023-08-15">
+                <textarea name="job_description" placeholder="Job Description" readonly>We are seeking a creative and talented Graphic Designer to join our dynamic team. The ideal candidate will be responsible for creating visually appealing graphics for various projects, including digital and print media. The Graphic Designer will collaborate with the marketing team to translate concepts into engaging and effective visual designs.</textarea>
+                <button> <a href="INDEX.html"> Apply Now </a> </button>
+            </div>
+        </div>
+            
+        <div class="container">
+            <div class="header">
+                <h1>Job Details - Data Analyst</h1>
+            </div>
+            <div class="form">
+                <input type="text" name="company_name" placeholder="Company Name" readonly value="Data Insights Inc.">
+                <input type="text" name="job_title" placeholder="Job Title" readonly value="Data Analyst">
+                <input type="date" name="start_date" placeholder="Start Date" readonly value="2023-03-01">
+                <input type="date" name="end_date" placeholder="End Date" readonly value="2023-09-01">
+                <textarea name="job_description" placeholder="Job Description" readonly>Data Insights Inc. is looking for a detail-oriented and analytical Data Analyst to join our data team. The candidate will be responsible for collecting, analyzing, and interpreting data to help inform business decisions. Strong analytical skills and proficiency in data visualization tools are essential for success in this role.</textarea>
+                <button> <a href="INDEX.html"> Apply Now </a> </button>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
