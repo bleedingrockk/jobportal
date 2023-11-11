@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Registration Website</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="Stylesheet.css">
+    <style>
+        :root {
+            --primary-green: #00cc00;
+            --dark-green: #008000;
+            --light-green: #66ff66;
+            --black: #000000;
+            --gray: #808080;
+        }
+
+        .container {
+            width: 500px;
+            margin: 0 auto;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 50px;
+        }
+
+        .header {
+            text-align: center;
+            padding: 20px 0;
+            background-color: var(--primary-green);
+            color: #fff;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+
+        .header h1 {
+            font-size: 28px;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        .form {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form input, .form textarea, .form select {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            outline: none;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        select {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            outline: none;
+        }
+
+        .cont1{
+            display: flex;
+            justify-content: space-between;
+        }
+
+    </style>
+</head>
+<body>
+    <video autoplay muted loop width="320" height="240">
+        <source src="Bakground.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    
+    <header>
+        <div>
+            Rock Industries
+            <span style="font-size: 20px; margin: 0px; padding:0px; color: var(--dark-green); display: block;">Empowering the Future of Technology</span>
+        </div>
+        <div>
+            <button> <a href="INDEX.html"> Logout </a> </button>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="header">
+            <h1>Job Details - Data Analyst</h1>
+        </div>
+        <div class="form">
+            <textarea name="job_description" placeholder="Job Description" readonly> Thank you for applying! We will reach out to you via email shortly.</textarea>
+            <button> <a href="pagejob.html"> Apply Another </a> </button>
+        </div>
+    </div>
+    
+
+
+</body>
+</html>
